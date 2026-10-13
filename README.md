@@ -7,7 +7,7 @@ I'm a Software Engineering graduate (M.Eng., Concordia University) who designs s
 
 My background spans data science and software development, with strong Python and Java skills. Right now I'm building hands-on AWS projects with EC2, S3, RDS, IAM and serverless.
 
-**Open to work:** new-grad, contract and part-time roles in software, cloud, AI automation and data.
+**Open to work:** new-grad, contract and full-time/part-time roles in software, cloud, AI automation and data.
 
 ## Projects
 
