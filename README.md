@@ -15,7 +15,7 @@ My background spans data science and software development, with strong Python an
 |---|---|---|
 | [Serverless AI Resume Tailor API](https://github.com/naraianlegrand/ai-resume-tailor-saas) | An AI-powered API that analyzes resumes against job descriptions and generates structured, ATS-focused tailoring recommendations. FastAPI, Pydantic, Gemini API via HTTPX. | Tested locally · Lambda deployment planned |
 | Chronicle | Cross-platform fantasy identity and social discovery app (private repo) | In Development |
-| TubeLytics | A real-time Java web application that integrates live YouTube data through REST APIs and WebSockets (private team repo) | Completed · SOEN 6441 |
+| [TubeLytics](https://github.com/Riyaguptacse/soen6441f24) | A real-time Java web application that integrates live YouTube data through REST APIs and WebSockets (private team repo) | Completed · SOEN 6441 |
 | [AI-Based Academic Advisor](https://github.com/Riyaguptacse/soen6841f24) | An AI-powered academic planning concept; I was Project Lead for the team proposal | Completed · SOEN 6841 |
 | [Cloud Tech](https://github.com/naraianlegrand/mk-cloud-journey) | A responsive cloud-learning website documenting my AWS learning journey | Completed |
 | AWS 3-Tier Architecture | A three-tier web application architecture on AWS, defined with Terraform | In Progress |
