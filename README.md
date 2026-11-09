@@ -13,26 +13,30 @@ My background spans data science and software development, with strong Python an
 its AI on the laptop's NPU at about 1% CPU. Two releases, a bilingual website and a write-up of everything that broke:
 [sloucher.karthikeyanumesh.com](https://sloucher.karthikeyanumesh.com).
 
+☁️ **Featured: [AWS 3-Tier Architecture with Terraform](https://github.com/naraianlegrand/aws-3tier-engops-portal)**: a request
+tracker for engineering teams on a three-tier AWS stack (ALB, EC2 Auto Scaling, RDS, S3, least-privilege IAM) that one
+`terraform apply` builds from zero. Crash-tested, destroyed and rebuilt; CI with GitHub Actions and OIDC, no stored AWS keys.
+
 ## Projects
 
 | Project | What it is | Status |
 |---|---|---|
 | [Sloucher](https://github.com/naraianlegrand/sloucher_ai) | Always-on posture coach for Windows: INT8 YOLOv8n-pose on the AMD Ryzen AI NPU (96.5% of operators), about 1% CPU, and the video never leaves the laptop. Python, ONNX Runtime, AMD Quark, PyInstaller. Open source (AGPL-3.0). | Released · v0.2.0 · [website](https://sloucher.karthikeyanumesh.com) |
+| [AWS 3-Tier Architecture with Terraform](https://github.com/naraianlegrand/aws-3tier-engops-portal) | A three-tier AWS stack in ca-central-1: VPC across 2 AZs, ALB → EC2 Auto Scaling Group (FastAPI in Docker) → RDS PostgreSQL + S3, chained security groups, least-privilege IAM, CloudWatch alarms. All Terraform; PRs run fmt, validate, tflint, Checkov and plan via OIDC. | Completed · deployed and tested, destroyed between demos |
 | [Serverless AI Resume Tailor API](https://github.com/naraianlegrand/ai-resume-tailor-saas) | An AI-powered API that analyzes resumes against job descriptions and generates structured, ATS-focused tailoring recommendations. FastAPI, Pydantic, Gemini API via HTTPX. | Tested locally · Lambda deployment planned |
 | Chronicle | Cross-platform fantasy identity and social discovery app (private repo) | In Development |
 | [TubeLytics](https://github.com/Riyaguptacse/soen6441f24) | A real-time Java web application that integrates live YouTube data through REST APIs and WebSockets (private team repo) | Completed · SOEN 6441 |
 | [AI-Based Academic Advisor](https://github.com/Riyaguptacse/soen6841f24) | An AI-powered academic planning concept; I was Project Lead for the team proposal | Completed · SOEN 6841 |
 | [Cloud Tech](https://github.com/naraianlegrand/mk-cloud-journey) | A responsive cloud-learning website documenting my AWS learning journey | Completed |
-| AWS 3-Tier Architecture | A three-tier web application architecture on AWS, defined with Terraform | In Progress |
 | [Portfolio](https://github.com/naraianlegrand/portfolio) | This site: Vite + React, Tailwind CSS, GSAP, prerendered and deployed on Vercel | Live at [karthikeyanumesh.com](https://karthikeyanumesh.com) |
 
 ## Skills
 
 - **Languages:** Python, Java, SQL, JavaScript, HTML/CSS
 - **Backend & APIs:** FastAPI, Pydantic, HTTPX, asyncio, Flask, Play Framework, Akka, WebSockets, REST APIs, PostgreSQL
-- **Cloud & DevOps:** AWS (EC2, S3, Lambda), S3 static hosting, Docker, Git, CI/CD, Linux/Unix
+- **Cloud & DevOps:** AWS (EC2, S3, RDS, VPC, IAM, ALB, Auto Scaling, CloudWatch, Lambda), Terraform, S3 static hosting, Docker, Git, GitHub Actions (OIDC), CI/CD, Checkov, Linux/Unix
 - **On-device AI:** AMD Ryzen AI NPU, ONNX Runtime, INT8 quantization (AMD Quark)
-- **Currently learning:** Terraform, AWS Solutions Architect – Associate
+- **Currently learning:** AWS Solutions Architect – Associate
 
 ## Certifications
 
